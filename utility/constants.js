@@ -22,13 +22,13 @@ export const colorClasses = {
     color: "bg-yellow-400",
     bordertag: "border-yellow-400",
     tag: "FARM",
-    imageUrl: "../public/images/farmIcon.png"
+    imageUrl: "public/images/farmIcon.png"
   },
   mountain: {
     color: "bg-red-900",
     bordertag: "border-red-900",
     tag: "MOUNTAIN",
-    imageUrl: "../public/images/mountainIcon.png"
+    imageUrl: "public/images/mountainIcon.png"
   },
   empty: {
     color: "bg-white",
