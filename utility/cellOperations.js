@@ -19,8 +19,8 @@ import {
 import {
   updateMissionPoints,
   selectedMission,
+  finalScore
 } from "../points/missionHandler.js";
-import { finalScore } from "../points/missionHandler.js";
 import { calculateFullMountains } from "../points/calculateMissionPoints.js";
 
 export const isIndexInArray = (arr, index, rowcol) => {
