@@ -7,6 +7,6 @@ function showStartScreen() {
 showStartScreen()
 
 document.getElementById('GameRules').addEventListener('click', function () {
-  window.location.href = 'rules.html';
+  window.location.href = 'src/rules.html';
 });
 // startGame()
