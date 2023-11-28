@@ -5,7 +5,7 @@ export const colorClasses = {
     color: "bg-blue-200",
     bordertag: "border-blue-200",
     tag: "WATER",
-    imageUrl: "../public/images/icons8-water-50.png"
+    imageUrl: "/public/images/icons8-water-50.png"
   },
   forest: {
     color: "bg-green-700",
@@ -16,7 +16,7 @@ export const colorClasses = {
     color: "bg-red-400",
     bordertag: "border-red-400",
     tag: "TOWN",
-    imageUrl: "../public/images/townIcon.png"
+    imageUrl: "/public/images/townIcon.png"
   },
   farm: {
     color: "bg-yellow-400",
