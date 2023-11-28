@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./style.css" rel="stylesheet" />
+  <link rel="icon" href="../public/images/icons8-couch-potato-96.png" sizes="96x96" />
+  <link href="/dist/output.css" rel="stylesheet" />
+  <title>Térképész</title>
+</head>
+
+<body class="bg-yellow-300 bg-opacity-40 overflow-hidden">
+  <div
+    class="max-h-screen overflow-y-auto mt-2 flex flex-col w-5/12 bg-white px-8 pb-8 pt-4 border-2 border-black shadow-md mx-auto scrollbar-hide">
+    <div>
+      <h1 class="text-2xl font-bold mb-4 text-center">Játék szabályai</h1>
+    </div>
+    <div>
+      <h2 class="font-bold underline">Rövid áttekintés</h2>
+      <div class="text-justify pb-2">
+        Ebben az egyszemélyes játékban egy 11x11-es négyzetrácsos térképre
+        kell lehelyezni különböző alakzatú, különböző tereptípusú
+        térképelemeket. A térképen 5 fix cellában hegymezők találhatóak.
+      </div>
+      <div class="text-justify pb-2">
+        Minden térképelemet tudunk forgatni (a) és tükrözni (s), és a térképelem nem
+        fedhet le egy már teli mezőt (a hegy is ennek számít), illetve nem
+        lóghat le egy része sem a térképről. A játék közben a négyzetrács
+        aktuális állapota alapján kell pár küldetést elvégezni, és ez alapján
+        alakul ki a végső pontszám.
+      </div>
+      <h2 class="font-bold underline">Játék időtartama</h2>
+      <div class="text-justify pb-2">
+        A játék 28 időegységig tart. Minden térképelemhez tartozik egy időegység, ami meghatározza, hogy mennyi ideig
+        tart őket felfedezni. Addig tudunk új térképelemeket húzni, amíg el nem érjük a 28 időegységet.
+      </div>
+      <div class="text-justify pb-2">
+        Ha az
+        összesített időérték eléri, vagy meghaladja a 28 időegységet, a játék véget ér. Például, ha 1 időegységünk
+        maradt hátra, és egy két időegységgel rendelkező térképelemet kapunk, a térképelemet még lehelyezhetjük, és
+        utána a játék véget ér.
+      </div>
+    </div>
+    <div>
+      <h2 class="font-bold underline">Pontszámítás</h2>
+      <div class="text-justify">
+        Minden játék elején kapsz 4 véletlenszerű küldetéskártyát (A,B,C,D),
+        amik alapján pontot lehet kapni. Ilyen küldetéskártya lehet például
+        ez:
+      </div>
+      <img class="py-3" src="../public/images/pontszamitas_kuldetes.png" alt="Mágusok völgye küldetés" />
+      <div class="text-center py-2 border-t-2 border-b-2 border-gray-600 font-semibold">
+        Ha a hegyeket 4 oldalról körbevesszük, körbevett hegyenként 1-1 pontot
+        kapsz.
+      </div>
+      <div class="text-justify py-4">
+        A játék végén megkapod mindegyik küldetés alapján a pontokat, és ezek
+        összesített eredménye lesz a végleges pontszám.
+      </div>
+    </div>
+    <div class="pt-4 flex justify-center">
+      <a href="index.html" class="bg-blue-500 text-white px-8 py-2 rounded-full">Vissza</a>
+    </div>
+  </div>
+</body>
+
+</html>
