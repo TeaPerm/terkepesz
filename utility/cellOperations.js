@@ -19,7 +19,7 @@ import {
 import {
   updateMissionPoints,
   selectedMission,
-} from "../../../points/missionHandler.js";
+} from "../points/missionHandler.js";
 import { finalScore } from "../points/missionHandler.js";
 import { calculateFullMountains } from "../points/calculateMissionPoints.js";
 
