@@ -80,7 +80,7 @@
     "yaml": "^2.3.3"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./style.css -o ./dist/output.css --watch"
+    "build": "tailwindcss build ./src/styles.css -o ./public/dist/output.css"
   },
   "author": "",
   "license": "ISC",
